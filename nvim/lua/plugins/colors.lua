@@ -1,14 +1,16 @@
 return {
+    {
     -- {
-        --     'bettervim/yugen.nvim',
+        --     "bettervim/yugen.nvim",
         --     config = function()
-            --         vim.cmd.colorscheme('yugen')
+            --         vim.cmd.colorscheme("yugen")
             --     end,
             -- }
             {
                 "nyoom-engineering/oxocarbon.nvim",
                 config = function()
-                    vim.cmd.colorscheme('oxocarbon')
+                    vim.cmd.colorscheme("oxocarbon")
                 end,
             },
         }
+    }
