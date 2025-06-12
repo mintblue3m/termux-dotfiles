@@ -18,5 +18,11 @@ Plugins
 - treesitter
 - yugen
 - nvim-lspconfig (blud is not even a plugin)
+- blink-cmp
 - idk
-  
+
+  Language servers (Termux)
+  -------
+  ```pkg i lua-language-server```
+
+  ```pkg i rust-analyzer```
