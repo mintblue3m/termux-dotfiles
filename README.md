@@ -16,7 +16,7 @@ Plugins
 - mini.nvim
 - snacks.nvim
 - treesitter
-- yugen
+- yugen & oxocarbon for colors
 - nvim-lspconfig (blud is not even a plugin)
 - blink-cmp
 - idk
