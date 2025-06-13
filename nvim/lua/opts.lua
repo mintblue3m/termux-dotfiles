@@ -45,3 +45,6 @@ set.incsearch = true
 
 -- faster cursor hold
 set.updatetime = 300
+
+-- termux specific settings
+set.mousescroll = "ver:1,hor:6"
