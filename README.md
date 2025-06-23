@@ -1,10 +1,16 @@
 Termux Setup
 --------
-[Colors](https://github.com/junegunn/seoul256.vim)
+[Colors](https://github.com/zenbones-theme/zenbones.nvim)
 
 [Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-[Font: DejaVu Sans Mono](https://www.nerdfonts.com/font-downloads)
+[Nushell](https://github.com/nushell/nushell)
+
+[Starship](https://github.com/starship/starship)
+
+[Carapace](https://github.com/carapace-sh/carapace-bin)
+
+[Font: Iosevka NFM](https://www.nerdfonts.com/font-downloads)
 
 
 Neovim Setup
@@ -16,7 +22,7 @@ Plugins
 - mini.nvim
 - snacks.nvim
 - treesitter
-- yugen & oxocarbon for colors
+- zenbones
 - nvim-lspconfig (blud is not even a plugin)
 - blink-cmp
 - idk
@@ -26,3 +32,5 @@ Plugins
   ```pkg i lua-language-server```
 
   ```pkg i rust-analyzer```
+
+  ```pkg i nu```
