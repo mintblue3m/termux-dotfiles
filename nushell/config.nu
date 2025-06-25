@@ -19,11 +19,9 @@
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
-$env.config.edit_mode = "vi"
-
 source ~/.cache/carapace/init.nu
 
-$env.PREFIX = "/data/data/com.termux/files/usr"
+plugin add $"($env.CARGO_HOME)/bin/nu_plugin_regex"
 
 alias vim = nvim
 # alias cd = __zoxide_z
