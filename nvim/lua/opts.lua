@@ -1,6 +1,7 @@
 -- OPTIONS
 local set = vim.opt
 
+vim.g.have_nerd_font = true
 set.autoread = true
 set.undofile = true
 --line nums
@@ -21,6 +22,7 @@ set.smartcase = true
 set.termguicolors = true
 set.background = "dark"
 set.signcolumn = "yes"
+set.winborder = "solid"
 
 -- cursor line
 set.cursorline = true
